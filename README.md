@@ -3,17 +3,17 @@
 This project processes textbooks by extracting text from PDFs, chunking the text, embedding the chunks using SBERT, and then applying RAPTOR indexing for effective retrieval and summarization.
 
 # Table of Contents
-~ Introduction
-~ Requirements
-~Installation
-~Usage
+- Introduction
+- Requirements
+- Installation
+- Usage
 
 # Steps
-      Extracting Text from PDFs
-      Chunking Text
-      Embedding Chunks
-      RAPTOR Indexing
-      Contributing
+      - Extracting Text from PDFs
+      - Chunking Text
+      - Embedding Chunks
+      -  RAPTOR Indexing
+      
 
 
 # Introduction
@@ -38,10 +38,26 @@ Place your PDF textbooks in the pdfs directory.
 
 # Run the text extraction script, chunking and embeddind script and RAPTOR Script
 
-python scripts/extract_text.py
-python scripts/chunk_and_embed.py
-python scripts/raptor_indexing.py
+- python scripts/extract_text.py
+- python scripts/chunk_and_embed.py
+- python scripts/raptor_indexing.py
 
-# 
+# Steps
+- Use the extract_text.py script to extract text from PDF textbooks and save them as text files.
+
+python extract_text.py
+
+- Use the chunks_text.py script to chunk the text into manageable pieces and create embeddings using the SBERT model.
+
+  python chunks_text.py
+
+- Use the raptor_indexing.py script to perform RAPTOR indexing on the text chunks and summarize the text.
+
+  python raptor_indexing.py
+
+# Example Usage
+Ensure to update the file paths and OpenAI API key as per your system configuration before running the scripts.
+
+
 
 
