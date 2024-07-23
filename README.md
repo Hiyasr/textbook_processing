@@ -59,5 +59,10 @@ python extract_text.py
 Ensure to update the file paths and OpenAI API key as per your system configuration before running the scripts.
 
 
+# textbook link
+ - textbook1: https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf
+ - textbook2: https://www.ucg.ac.me/skladiste/blog_44233/objava_64433/fajlovi/Computer%20Networking%20_%20A%20Top%20Down%20Approach,%207th,%20converted.pdf
+ - textbook3: https://www.uoitc.edu.iq/images/documents/informatics-institute/Competitive_exam/DataStructures.pdf
+
 
 
